@@ -5,6 +5,7 @@
 /vendor
 /phpMyAdmin
 /.vagrant
+/.vscode
 .env
 .phpunit.result.cache
 Homestead.json
