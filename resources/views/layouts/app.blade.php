@@ -39,7 +39,7 @@
                     <ul class="navbar-nav mr-auto">
                         @auth
                         <li class="nav-item">
-                            <a href="" class="nav-link">Add pattern</a>
+                            <a href="{{ route('add-pattern.index') }}" class="nav-link">Add pattern</a>
                         </li>
                         @endauth
                     </ul>
@@ -81,7 +81,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="container">
             @yield('content')
         </main>
     </div>
