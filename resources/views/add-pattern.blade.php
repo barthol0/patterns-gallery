@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<a href="" class="btn btn-primary">Back</a>
+<a href="{{ route('home') }}" class="btn btn-primary">Back</a>
 <h1>Add pattern</h1>
 <form action="" method="post">
     <div class="form-group">
